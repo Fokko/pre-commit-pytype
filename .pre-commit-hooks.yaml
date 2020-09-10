@@ -3,6 +3,6 @@
     entry: pytype
     language: python
     'types': [python]
-    args: ["--config=pytype.cfg",]
+    args: ["--config=pytype.cfg","--ignore-missing-imports",]
     require_serial: true
     additional_dependencies: []
